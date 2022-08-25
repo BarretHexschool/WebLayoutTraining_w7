@@ -1,0 +1,36 @@
+footer{
+    background-color: $c_bg;
+    color: $c_sec;
+    padding-top: 24px;
+    padding-bottom: 26.2px;
+    h2{
+        color: $c_sec;
+        border-bottom: 1px solid $c_sec;
+        text-align: center;
+    }
+    span{
+        color: $c_sec;
+    }
+    ul{
+        text-align: center;
+    }
+    li{ 
+        font-size: $fz_m;
+        margin-bottom: 16px;
+        a{        
+            color: $c_sec;
+            &:hover{
+                color: $c_bd;
+            }
+        }
+        img{
+            margin: 0 12px;
+            &:hover {
+                transform: scale(1.2, 1.2);}
+                
+        }
+    }
+    .container{
+        margin-bottom: 0;
+    }
+}

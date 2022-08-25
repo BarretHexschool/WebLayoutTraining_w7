@@ -1,0 +1,17 @@
+/* 常用css */
+/* 
+*{outline: solid;
+} */
+
+*,*::before,*::after{
+    box-sizing: border-box;
+}
+img{
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+a{
+    text-decoration: none;
+}
